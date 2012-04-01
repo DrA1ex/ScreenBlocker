@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="QBlocker">
+    <file>Resources/stop.png</file>
+  </qresource>
+</RCC>

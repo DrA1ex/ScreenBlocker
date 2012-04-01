@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ScreenBlocker", "ScreenBlocker\ScreenBlocker.vcxproj", "{D7777BC7-A5EC-4D42-9DD2-09133F593EBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Dynamic_Release|Win32 = Dynamic_Release|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7777BC7-A5EC-4D42-9DD2-09133F593EBA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D7777BC7-A5EC-4D42-9DD2-09133F593EBA}.Debug|Win32.Build.0 = Debug|Win32
+		{D7777BC7-A5EC-4D42-9DD2-09133F593EBA}.Dynamic_Release|Win32.ActiveCfg = Dynamic_Release|Win32
+		{D7777BC7-A5EC-4D42-9DD2-09133F593EBA}.Dynamic_Release|Win32.Build.0 = Dynamic_Release|Win32
+		{D7777BC7-A5EC-4D42-9DD2-09133F593EBA}.Release|Win32.ActiveCfg = Release|Win32
+		{D7777BC7-A5EC-4D42-9DD2-09133F593EBA}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

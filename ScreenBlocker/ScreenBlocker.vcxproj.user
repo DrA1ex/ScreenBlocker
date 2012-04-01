@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <QTDIR>C:\DevTools\Qt\4.7.2-static</QTDIR>
+    <LocalDebuggerEnvironment Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">PATH=$(QTDIR)\bin%3b$(PATH)</LocalDebuggerEnvironment>
+    <LocalDebuggerEnvironment Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">PATH=$(QTDIR)\bin%3b$(PATH)</LocalDebuggerEnvironment>
+    <LocalDebuggerEnvironment Condition="'$(Configuration)|$(Platform)'=='Dynamic_Release|Win32'">PATH=$(QTDIR)\bin%3b$(PATH)</LocalDebuggerEnvironment>
+    <RemoteDebuggerServerName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">a1ex-f5b4d4b671</RemoteDebuggerServerName>
+    <RemoteDebuggerServerName Condition="'$(Configuration)|$(Platform)'=='Dynamic_Release|Win32'">192.168.183.2:4015</RemoteDebuggerServerName>
+    <DebuggerFlavor Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WindowsLocalDebugger</DebuggerFlavor>
+    <DebuggerFlavor Condition="'$(Configuration)|$(Platform)'=='Dynamic_Release|Win32'">WindowsLocalDebugger</DebuggerFlavor>
+    <RemoteDebuggerCommand Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Documents and Settings\Admin\Рабочий стол\ScreenBlocker.exe</RemoteDebuggerCommand>
+    <RemoteDebuggerCommand Condition="'$(Configuration)|$(Platform)'=='Dynamic_Release|Win32'">Z:\My\c++\Projects\QT4\ScreenBlocker\ScreenBlocker.exe</RemoteDebuggerCommand>
+    <DebuggerFlavor Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WindowsLocalDebugger</DebuggerFlavor>
+    <RemoteDebuggerConnection Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">RemoteWithoutAuthentication</RemoteDebuggerConnection>
+    <RemoteDebuggerDebuggerType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Auto</RemoteDebuggerDebuggerType>
+    <RemoteDebuggerServerName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">192.168.183.2:4015</RemoteDebuggerServerName>
+    <RemoteDebuggerCommand Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Z:\My\c++\Projects\QT4\ScreenBlocker\ScreenBlocker.exe</RemoteDebuggerCommand>
+    <RemoteDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Z:\My\c++\Projects\QT4\ScreenBlocker\</RemoteDebuggerWorkingDirectory>
+    <RemoteDebuggerConnection Condition="'$(Configuration)|$(Platform)'=='Dynamic_Release|Win32'">RemoteWithoutAuthentication</RemoteDebuggerConnection>
+    <RemoteDebuggerDebuggerType Condition="'$(Configuration)|$(Platform)'=='Dynamic_Release|Win32'">Auto</RemoteDebuggerDebuggerType>
+    <RemoteDebuggerAttach Condition="'$(Configuration)|$(Platform)'=='Dynamic_Release|Win32'">false</RemoteDebuggerAttach>
+    <RemoteDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Dynamic_Release|Win32'">Z:\My\c++\Projects\QT4\ScreenBlocker\</RemoteDebuggerWorkingDirectory>
+    <RemoteDebuggerConnection Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">RemoteWithAuthentication</RemoteDebuggerConnection>
+    <RemoteDebuggerDebuggerType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Auto</RemoteDebuggerDebuggerType>
+    <RemoteDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\All\My\c++\Projects\QT4\ScreenBlocker\ScreenBlocker\</RemoteDebuggerWorkingDirectory>
+  </PropertyGroup>
+</Project>
